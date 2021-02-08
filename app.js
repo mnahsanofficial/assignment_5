@@ -13,7 +13,7 @@ const displayFood = foods => {
     foodContainer.innerHTML = '';
     foods.forEach(meals => {
         const foodDiv = document.createElement('div');
-        foodDiv.className = ' row-cols-md-6  mt-5 d-flex justify-content-around';
+        foodDiv.className = ' row-cols-md-2  mt-5 d-flex justify-content-around';
         foodDiv.innerHTML = `
         <div class="col">
             <div class="card h-100 text-center">
