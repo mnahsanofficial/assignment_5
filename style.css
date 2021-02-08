@@ -1,7 +1,9 @@
-body{
-    background-color: goldenrod;
-}
+
 .input-group{
     margin-top: 100px;
     margin-left: 40%;
+}
+#food-ingredient{
+    text-transform: uppercase;
+    font-size: 15px;
 }
